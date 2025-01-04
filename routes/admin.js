@@ -23,7 +23,7 @@ router.get('/',verifyLogin,function(req, res, next) {
       
       
        
-      res.render('admin/mainpage',{admin:true,stock})
+      res.render('admin/mainPage',{admin:true,stock})
     })})
   
 
