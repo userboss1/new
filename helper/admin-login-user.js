@@ -1,6 +1,6 @@
 var db=require('../config/connection')
 var collection=require('../config/ccollection')
-var bcrypt=require('bcrypt')
+var bcrypt=require('bcryptjs')
 const { response } = require('express')
 
 module.exports={
