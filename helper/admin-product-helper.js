@@ -1,6 +1,6 @@
 var db=require('../config/connection')
 var collection=require('../config/ccollection')
-var bcrypt=require('bcryptjs')
+var bcrypt=require('bcrypt')
 
 var ObjectId=require('mongodb').ObjectId
 module.exports={
