@@ -117,4 +117,7 @@ router.post('/adduser',(req,res)=>{
 
 
 })
+router.get('/redirect',(req,res)=>{
+  res.redirect('/admin')
+})
 module.exports = router;
