@@ -25,7 +25,10 @@ router.get('/',verifyLogin,function(req, res, next) {
        
       res.render('admin/mainPage',{admin:true,stock})
     })})
-  
+  router.get('/logout',(req,res)=>{
+  req.session.destroy
+  res.redirect('/')
+  })
 
  
 
